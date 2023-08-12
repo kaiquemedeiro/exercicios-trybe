@@ -1,0 +1,77 @@
+div :hover{
+    border: 2px solid black; /* Adiciona uma borda vermelha quando o cursor passa por cima */
+}
+
+.box-blue {
+    background-color: blue;
+
+}
+
+.box-green {
+    background-color: green;
+}
+
+.box-orange{
+    background-color: orange;
+    font-size: larger;
+    height: 100px;
+
+}
+
+.box-gray{
+    background-color: gray;
+}
+
+.box-yellow {
+    background-color: yellow;
+}
+
+
+.h3-1, .h3-3, .h3-5 {
+    font-style: italic; 
+}
+
+
+.h3-1 {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+
+}
+
+.h3-2 {
+    color: #e74c3c;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+
+}
+
+.h3-3 {
+    color: #8e44ad;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+
+}
+
+.h3-4 {
+    color: #27ae60;
+    font-size: 22px;
+    font-weight: normal;
+    font-family: 'Roboto', Arial, sans-serif;
+    border-bottom: 2px solid #27ae60;
+    padding-bottom: 5px;
+
+}
+
+.h3-5 {
+    color: #f39c12;
+    font-size: 36px;
+    font-weight: normal;
+    font-family: 'Cursive', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}

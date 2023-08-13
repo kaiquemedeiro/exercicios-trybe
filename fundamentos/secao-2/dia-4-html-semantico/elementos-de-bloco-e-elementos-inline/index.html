@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ranking</title>
     <style>
+
+        
       h1 {
         text-align: center;
       }
@@ -15,6 +17,8 @@
         height: 50px;
         text-align: center;
         width: 200px;
+        left: 100px;
+        margin-left: 635px;
       }
 
       .second {
@@ -23,6 +27,7 @@
         height: 50px;
         text-align: center;
         width: 300px;
+        display: inline-block
       }
 
       .third {
@@ -31,15 +36,61 @@
         height: 50px;
         text-align: center;
         width: 300px;
+        display: inline-block;
+
+
       }
 
+      section.podio {
+        text-align: center;
+      }
+
+
+
+      .premiacao {
+        margin-left: 680px;
+
+      }
+
+      section.premiacao h3 {
+        margin-left: -30px;
+      }
+
+      section.premiacao ul.primeiro {
+        margin-left: -250px;
+      }
+
+      section.premiacao ul.segundo {
+        margin-left: -230px;
+      }
+
+      section.premiacao ul.terceiro {
+        margin-left: -230px;
+      }
+
+
+
+      section.premiacao ul li {
+        display: inline;
+
+      }
+
+      
+
+
+     
+      
+        
+
+
+     
     </style>
   </head>
   <body>
     <header>
       <h1>Hackathon Results</h1>
     </header>
-    <section>
+    <section class="podio">
       <ul>
         <li class="first">1º - Equipe 1</li>
         <li class="second">2º - Equipe 2</li>
@@ -48,17 +99,17 @@
     </section>
     <section class="premiacao">
       <h3>Premiação Primeiro Lugar:</h3>
-      <ul>
+      <ul class="primeiro">
         <li>| R$ 1000,00 por integrante da equipe |</li>
         <li>| Bootcamp de 2 meses com possibilidade de contratação |</li>
       </ul>
       <h3>Premiação Segundo Lugar:</h3>
-      <ul>
+      <ul class="segundo">
         <li>| R$ 600,00 por integrante da equipe |</li>
         <li>| Participação no processo seletivo para o Bootcamp |</li>
       </ul>
       <h3>Premiação Terceiro Lugar:</h3>
-      <ul>
+      <ul class="terceiro">
         <li>| R$ 300,00 por integrante da equipe |</li>
         <li>| Participação no processo seletivo para o Bootcamp |</li>
       </ul>

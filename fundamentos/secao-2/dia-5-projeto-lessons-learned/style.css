@@ -1,0 +1,156 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: rgba(255, 255, 0, 0.677);
+  width: 100%;
+}
+
+
+#cabecalho h1 {
+  text-align: center;
+}
+
+
+#minha_foto {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+  margin-top: 78px;
+}
+
+#nome {
+  width: auto;
+  padding: 4px;
+  display: block;
+  text-align: center;
+}
+
+#listas {
+  padding: 5px;
+  margin-left: 10px;
+  text-align: left;
+  display: inline-block;
+  line-height: 1.2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#licoes {
+  width: auto;
+  display: block;
+  margin-left: 25px;
+}
+
+#licoes_aprendidas {
+  float: left;
+  width: 40%;
+}
+
+#licoes_a_aprender {
+  float: right;
+  display: inline;
+  width: 40%;
+}
+
+h2 {
+  clear: both;
+  color: rgba(109, 109, 10, 0.91);
+}
+
+ol li {
+  color: rgba(109, 109, 10, 0.91);
+  padding-top: 10px;
+}
+
+ul li {
+  padding-top: 10px;
+  color: rgba(109, 109, 10, 0.91);
+}
+
+img {
+  border: 2px solid black;
+}
+
+link {
+  color: rgba(109, 109, 10, 0.91);
+  margin-top: 20px;
+  display: inline-block;
+}
+
+#conteudo {
+  padding: 5px;
+  margin-left: 550px;
+  text-align: center;
+  display: inline-block;
+}
+
+
+.lado-esquerdo {
+  width: 40%;
+  text-align: justify;
+  padding: 5px;
+  display: inline-block;
+  color: rgba(109, 109, 10, 0.91);
+}
+
+.lado-direito {
+  width: 40%;
+  display: inline-block;
+  float: right;
+  color: rgba(109, 109, 10, 0.91);
+}
+
+.lado-direito a {
+  color: rgba(109, 109, 10, 0.91);
+}
+
+h2 a:hover {
+  background-color: black;
+  color: yellow;
+}
+
+.lado-direito a:hover {
+  color: yellow;
+  background-color: black;
+}
+
+table {
+  clear: both;
+  margin-top: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+caption {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: rgba(109, 109, 10, 0.91);
+}
+
+th {
+  background-color: rgb(206, 206, 0);
+  padding: 10px;
+  text-align: left;
+  font-weight: 700;
+  border: 1px solid white;
+}
+
+td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid white;
+  color: rgba(109, 109, 10, 0.91);
+}
+
+tr:hover {
+  background-color: white;
+}
+
+footer {
+  color: rgba(109, 109, 10, 0.91);
+}

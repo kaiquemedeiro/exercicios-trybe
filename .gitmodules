@@ -1,3 +1,6 @@
 [submodule "fundamentos/secao-3/dia-3-funcoes/sd-036-exercise-functions"]
 	path = fundamentos/secao-3/dia-3-funcoes/sd-036-exercise-functions
 	url = git@github.com:tryber/sd-036-exercise-functions.git
+[submodule "/home/kaique/Documentos/exercicios-trybe/fundamentos/secao-3/dia-5-json-e-dia-de-pratica/exercicio-playground-functions"]
+	path = /home/kaique/Documentos/exercicios-trybe/fundamentos/secao-3/dia-5-json-e-dia-de-pratica/exercicio-playground-functions
+	url = git@github.com:tryber/sd-036-exercise-playground-functions.git

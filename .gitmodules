@@ -4,3 +4,6 @@
 [submodule "/home/kaique/Documentos/exercicios-trybe/fundamentos/secao-3/dia-5-json-e-dia-de-pratica/exercicio-playground-functions"]
 	path = /home/kaique/Documentos/exercicios-trybe/fundamentos/secao-3/dia-5-json-e-dia-de-pratica/exercicio-playground-functions
 	url = git@github.com:tryber/sd-036-exercise-playground-functions.git
+[submodule "fundamentos/secao-3/dia-6-projeto-supermercado-pirilampo/sd-036-supermercado-pirilampo"]
+	path = fundamentos/secao-3/dia-6-projeto-supermercado-pirilampo/sd-036-supermercado-pirilampo
+	url = git@github.com:tryber/sd-036-supermercado-pirilampo.git

@@ -7,3 +7,6 @@
 [submodule "fundamentos/secao-3/dia-6-projeto-supermercado-pirilampo/sd-036-supermercado-pirilampo"]
 	path = fundamentos/secao-3/dia-6-projeto-supermercado-pirilampo/sd-036-supermercado-pirilampo
 	url = git@github.com:tryber/sd-036-supermercado-pirilampo.git
+[submodule "fundamentos/secao-4/dia-1-javascript-dom-e-seletores/exercicios/sd-036-exercise-dom-manipulation"]
+	path = fundamentos/secao-4/dia-1-javascript-dom-e-seletores/exercicios/sd-036-exercise-dom-manipulation
+	url = git@github.com:tryber/sd-036-exercise-dom-manipulation.git

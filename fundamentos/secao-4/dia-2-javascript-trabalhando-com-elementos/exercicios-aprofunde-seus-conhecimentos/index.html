@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+        // COLOQUE SEU CÓDIGO AQUI
+
+        //Adicione a tag h1 com o texto TrybeTrip - Agência de Viagens como filho da tag body:
+
+        //selecionando o body para manipular
+        const body = document.querySelector('body');
+        console.log(body);
+        //criando o novo elemento h1
+        const newElementh1 = document.createElement('h1');
+
+        //atribuindo o texto pedido
+        newElementh1.innerText = 'TrybeTrip - Agência de Viagens';
+
+        //adicionando o nopvo elemento como filho do body
+        body.appendChild(newElementh1);
+
+        //visualizando o novo body
+        console.log(body);
+
+        //Adicione a tag main com a classe main-content como filho da tag body:
+
+        //criando o novo elemento
+        const newElementh2 = document.createElement('main');
+
+        //setando os atributos
+
+        newElementh2.setAttribute('class', 'main-content');
+
+        //adicionando o novo elemento 2, como filho do body
+        body.appendChild(newElementh2);
+        
+        //visualizando o novo body
+        console.log(body);
+
+        //Adicione a tag section com a classe center-content como filho da tag main criada no passo 2:
+
+        //criando o novo elemento e setando a class
+        const newElementh3 = document.createElement('section')
+        
+        //setando a class
+        newElementh3.setAttribute('class', 'center-content');
+
+        //selecionando a main para manipular:
+
+        const main = document.querySelector('.main-content');
+
+        //adicionando a nova tag 3 como filho da main
+
+        main.appendChild(newElementh3);
+
+        //visualizando o novo main
+
+        console.log(main);
+
+        //Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+
+        //criando nova tag p
+        const newElementh4 = document.createElement('p');
+
+        //adiconando o etxto a tag p criada
+        
+        newElementh4.innerText = 'ADICIONADA TAG P COMO FILHO DO SECTION.';
+
+        //SELECIONANDO A SECTION CRIADA NO PASSO 3
+
+        const section = document.querySelector('.center-content');
+
+        //adicionando filha a nova tag na section selecionada acima
+
+        section.appendChild(newElementh4);
+
+        //Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
+
+        //criando a nova tag section
+        const newElementh5 = document.createElement('section');
+
+        //setando a classe
+        newElementh5.setAttribute('class', 'left-content');
+
+        //criando a nova tag como filho da main criada no passo 2
+        main.appendChild(newElementh5);
+
+        //verificando como ficou o main
+        console.log(main);
+
+        //Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
+
+        //criando a nova tag section
+        const newElementh6 = document.createElement('section');
+
+        //setando a classe
+        newElementh6.setAttribute('class', 'right-content');
+
+        //criando a nova tag como filho da main criada no passo 2
+        main.appendChild(newElementh6);
+
+        //verificando como ficou o main
+        console.log(main);
+
+        //Adicione uma imagem com src configurado para valor https://picsum.photos/200 e classe small-image. Esse elemento deve ser filho do section criado no passo 5;
+
+        //criando o novo elemento imagem
+        const img1 = document.createElement('img');
+
+        //setando o valor para src:
+        img1.src = 'https://picsum.photos/200 ';
+
+        //setando a class
+        img1.setAttribute('class', 'small-image');
+
+        //selecionando a section criada no exercicio 5
+        const leftContent = document.querySelector('.left-content');
+
+        //adicionando a imagem como filho de section do passo 5
+        leftContent.appendChild(img1);
+
+        //Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, e assim por diante. Essa lista deve ser filha do section criado no passo 6;
+
+        // criando o novo elemento lista
+        const unoderedList = document.createElement('ul');
+
+        //adicionando os textos de 1 a 10 por extenso.
+        // Array contendo os números por extenso
+
+        //criando lista das strings
+        const numerosPorExtenso = [
+          "Um", "Dois", "Três", "Quatro", "Cinco", "Seis", "Sete", "Oito", "Nove", "Dez"
+        ];
+
+        //for para inserir li na ul
+        for (index= 0; index < 10; index+= 1) {
+          const elementoLi = document.createElement('li');
+          elementoLi.innerText = numerosPorExtenso[index];
+          unoderedList.appendChild(elementoLi);
+        }
+
+        //adicionando como filha na section criada no passo 6:
+        newElementh6.appendChild(unoderedList);
+
+        //Adicione 3 tags h3, todas filhas do main criado no passo 2.
+        for (let index= 0; index < 3; index+= 1) {
+           const h3Element = document.createElement("h3");
+
+           main.appendChild(h3Element);
+        }
+        
+        // visualizando a tag main com as h3
+        console.log(main);
+
+        //BONUS, Adicione a classe title na tag h1 criada:
+
+        //selecionando a tag h1
+        const h1Element = document.querySelector('h1');
+
+        //setando a classe
+        h1Element.setAttribute('class', 'title');
+
+        //Adicione a classe description nas 3 tags h3 criadas;
+
+        //selecionando as tags h3
+        const h3Elements = document.querySelectorAll('main h3');
+
+        //alterando toda a lista de h3 para a classe
+        for (let index= 0; index < h3Elements.length; index += 1) {
+          h3Elements[index].setAttribute('class', 'description');
+        }
+
+        //Remova a section criada no passo 5 (aquela que possui a classe left-content) por meio da função .removeChild();
+        main.removeChild(leftContent);
+
+        //Centralize a section criada no passo 6 (aquela que possui a classe right-content).
+
+        //selecionando a right content
+        const rightContent = document.querySelector('.right-content');
+
+        //centralizando
+        rightContent.style.margin = '0 auto';
+
+        // Troque a cor de fundo do elemento-pai da section criada no passo 3 (aquela que possui a classe center-content) para a cor verde;
+        main.style.backgroundColor = ('green');
+        
+        //Remova os dois últimos elementos (nove e dez) da lista criada no passo 8.
+        unoderedList.removeChild(unoderedList.lastElementChild);
+        unoderedList.removeChild(unoderedList.lastElementChild);
+
+    </script>
+  </body>
+</html>

@@ -10,3 +10,6 @@
 [submodule "fundamentos/secao-4/dia-1-javascript-dom-e-seletores/exercicios/sd-036-exercise-dom-manipulation"]
 	path = fundamentos/secao-4/dia-1-javascript-dom-e-seletores/exercicios/sd-036-exercise-dom-manipulation
 	url = git@github.com:tryber/sd-036-exercise-dom-manipulation.git
+[submodule "fundamentos/secao-5/dia-1-html-e-css-forms/criando-formulario-para-concorrer-a-viagem/sd-036-exercise-travel-form"]
+	path = fundamentos/secao-5/dia-1-html-e-css-forms/criando-formulario-para-concorrer-a-viagem/sd-036-exercise-travel-form
+	url = git@github.com:tryber/sd-036-exercise-travel-form.git

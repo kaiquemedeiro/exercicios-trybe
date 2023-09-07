@@ -1,0 +1,15 @@
+{
+  "name": "vamos-praticar",
+  "version": "1.0.0",
+  "description": "Imagine que, em um novo emprego, você ficou responsável por finalizar o site de sorteio da TrybeTravel.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "just-validate": "^4.2.0"
+  }
+}

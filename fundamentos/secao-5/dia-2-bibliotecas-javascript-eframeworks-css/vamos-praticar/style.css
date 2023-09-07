@@ -1,0 +1,31 @@
+body {
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+label {
+    margin: auto;
+    
+}
+
+#clear-btn {
+    margin-left: 10px;
+}
+
+
+.form-control {
+    width: 350px;
+}
+
+.form-check-label {
+    margin: 5px;
+}
+
+.form-check-input {
+    margin: 5px;
+}
+
+.form-control {
+    resize: none;
+}

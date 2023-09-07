@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "jsdom": "^22.1.0"
+    "cypress": "^13.1.0",
+    "jsdom": "^22.1.0",
+    "lint": "^1.1.2"
   }
 }

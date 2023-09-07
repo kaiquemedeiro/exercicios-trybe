@@ -1,4 +1,4 @@
-import JustValidate from "/package.json";
+import JustValidate from 'just-validate';
 
 const validator = new JustValidate();
 

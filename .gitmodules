@@ -13,3 +13,6 @@
 [submodule "fundamentos/secao-5/dia-1-html-e-css-forms/criando-formulario-para-concorrer-a-viagem/sd-036-exercise-travel-form"]
 	path = fundamentos/secao-5/dia-1-html-e-css-forms/criando-formulario-para-concorrer-a-viagem/sd-036-exercise-travel-form
 	url = git@github.com:tryber/sd-036-exercise-travel-form.git
+[submodule "fundamentos/secao-5/dia3-flexbox-parte-1/trybe-tech-gallery/sd-036-exercise-trybe-tech-gallery"]
+	path = fundamentos/secao-5/dia3-flexbox-parte-1/trybe-tech-gallery/sd-036-exercise-trybe-tech-gallery
+	url = git@github.com:tryber/sd-036-exercise-trybe-tech-gallery.git

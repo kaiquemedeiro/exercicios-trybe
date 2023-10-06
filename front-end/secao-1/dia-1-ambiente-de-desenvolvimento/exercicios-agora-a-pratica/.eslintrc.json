@@ -5,7 +5,7 @@
       "es2021": true
     },
     // Estende as características recomendadas
-    "extends": "eslint:recommended",
+    "extends": "@trybe/eslint-config-frontend",
     "overrides": [
     ],
     // Especifica as opções de linguagens JavaScript

@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "@trybe/eslint-config-frontend": "^1.11.4"
-  }
+  },
+  "type": "module"
 }

@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    text-align: center;
+    align-items: center;
+    height: 800px;
+    width: 800px;
+}
+
+h1, #container-buttons, img {
+    margin: 10px;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+}

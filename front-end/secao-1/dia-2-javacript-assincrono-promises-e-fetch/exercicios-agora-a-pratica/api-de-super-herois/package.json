@@ -9,7 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@trybe/eslint-config-frontend": "^1.11.4"
+    "@trybe/eslint-config-frontend": "^1.11.4",
+    "sweetalert2": "^11.7.32"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@types/json-schema": "^7.0.13"
+  }
 }

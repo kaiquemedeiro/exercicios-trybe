@@ -1,0 +1,32 @@
+body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    max-width: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(165, 224, 0);
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    height: 200px;
+}

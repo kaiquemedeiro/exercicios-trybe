@@ -1,3 +1,5 @@
+import Swal from 'sweetalert2';
+
 const $button = document.querySelector('button');
 
 const updateImg = (urlImage) => {
@@ -18,7 +20,6 @@ const updateName = (data) => {
   updateImg(objPicked.images.md);
 };
 
-
 $button.addEventListener('click', () => {
   const superHeroApi = 'https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/all.json';
   fetch(superHeroApi)
@@ -26,6 +27,11 @@ $button.addEventListener('click', () => {
     .then((data) => {
       updateName(data);
     }).catch((error) => {
-    //Trataremos o erro aqui
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: error.message,
+        footer: '<a href="">Why do I have this issue?</a>',
+      });
     });
 });

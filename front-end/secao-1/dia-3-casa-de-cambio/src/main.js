@@ -1,8 +1,5 @@
 import Swal from 'sweetalert2'
 
-import { format } from 'date-fns'
-// Endpoint da API para obter as taxas de câmbio em tempo real
-
 const $button = document.querySelector('button')
 
 $button.addEventListener('click', () => {

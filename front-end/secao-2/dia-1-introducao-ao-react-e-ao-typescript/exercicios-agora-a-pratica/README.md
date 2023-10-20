@@ -1,22 +1,47 @@
-Exercícios – Agora a prática
-🚀 Criando um projeto React com Vite e TypeScript
-Neste exercício, você deve criar uma aplicação semelhante à que foi criada durante a aula ao vivo, com o objetivo de assimilar melhor o conteúdo do dia.
+Introdução
+O que vamos aprender?
+Hoje você vai conhecer alguns conceitos iniciais do React,
+ uma das bibliotecas mais utilizadas para a criação de aplicações
+  Front-end, ao criar sua primeira aplicação e seus primeiros componentes React!
 
-Crie um projeto chamado “Hello World” em React usando Vite. Ainda, inclua o eslint da Trybe.
+Você será capaz de:
+Inicializar e estruturar um projeto em React com TypeScript.
+Definir JSX como maneira de escrever tags HTML em JavaScript.
+Criar elementos JSX.
+Criar componentes React.
+Utilizar componentes React.
+Por que isso é importante?
+É muito comum que, na criação de aplicações Front-end,
+ sejam utilizadas bibliotecas para auxiliá-lo e permitir criar 
+ aplicações mais completas e robustas, de modo mais simples. 
+ Atualmente, algumas das principais bibliotecas são Angular, Vue e React.
 
-O projeto deve exibir o nome do usuário e a idade dele, que será calculada com base na data de nascimento (dd/mm/aaaa). O componente principal deve chamar outros dois componentes: Title e ModuleDetails.
+Desenvolver uma aplicação web sem nenhuma biblioteca/framework 
+é possível, porém coloca em risco a produtividade de um time. 
+Na Trybe, é utilizado o React por conta de sua adoção, sua estabilidade, 
+suas oportunidades e seu potencial de longevidade.
 
-O componente Title deve exibir um título para o módulo, e o componente ModuleDetails deve apresentar mais informações sobre o módulo
-Checklist
-[ ] 1. Crie um projeto React com TS usando Vite – npm create vite@latest.
-[ ] 2. Entre na pasta do projeto, instale as dependências e, depois, instale o eslint da Trybe – npm install @trybe/eslint-config-frontend.
-[ ] 3. Crie o arquivo .eslintrc.json e faça o extends para @trybe/eslint-config-frontend/typescript.
-[ ] 4. Inicie o projeto e veja se está tudo funcionando.
-Como sugestão, você pode deletar todo o conteúdo que não é necessário, do arquivo App.tsx e deixar apenas o return do componente com algo como <div>Work in progress</div>.
+O React foi criado em 2011 pela equipe de engenharia de software
+ do Facebook e, em 2013, tornou-se Open Source. Atualmente, é utilizado 
+ por grandes plataformas mundiais, como Netflix, Airbnb e Twitter.
 
-[ ] 5. Crie um componente chamado Title que exiba o título <h1>Desenvolvimento Web</h1> na tela.
-[ ] 6. Crie um componente chamado ModuleDetails que exiba o nome dos módulos deste curso.
-[ ] 7. Crie um componente chamado HelloWorld que importa e renderiza os componentes criados anteriormente.
-[ ] 8. Renderize o componente HelloWorld no componente App.
-[ ] 9. No componente HelloWorld, crie uma função que calcule a idade do usuário a partir da data de nascimento e a exiba na tela. Dica: você poderá pegar essa fórmula pronta da internet ou do repositório da aula ao vivo.
-Para realizar o cálculo da idade, você pode criar uma função utilitária, colocá-la dentro da pasta src/utils/age.ts e importá-la no componente HelloWorld ou, se preferir, pode criar a função diretamente no componente HelloWorld.
+Hoje, você começará sua jornada para aprender como criar aplicações em React. 
+Ao longo desta seção, você estudará alguns conceitos básicos, 
+mas muito importantes sobre essa biblioteca.
+
+Entrando na emocionante jornada React
+Prepare-se para mergulhar em um mundo de possibilidades interativas,
+ onde a sua criatividade e imaginação são os limites. Com o React, 
+ você estará no controle da criação de interfaces incríveis, 
+ conectando a parte visual com o fluxo de informações de sua aplicação de maneira simples e eficiente.
+
+Não se preocupe mais com a dificuldade de atualizar e renderizar a tela,
+ pois o React fará isso por você, e ainda garantirá que somente as partes
+  necessárias sejam alteradas à medida que os dados são atualizados.
+
+Com dedicação, você ficará experiente na arte de criar componentes React,
+ peças incríveis que têm a própria lógica e estilização. Esses componentes 
+ podem ser simples, como um botão, ou elaborados, como uma página inteira de sua aplicação.
+
+E o melhor é que tudo começa com a criação de um projeto React do zero.
+ Não se preocupe! Na próxima lição, você estará pronto para iniciar essa jornada emocionante e criativa!

@@ -26,4 +26,4 @@ As vantagens da React Testing Library são:
 Mais simples de usar;
 Muito menos caveats, isto é, situações que podem causar pequenos problemas e dores de cabeça inesperadas;
 Reforça o bom uso das melhores práticas de testes, incentivando e facilitando testes de comportamentos, e não os de implementação;
-Permite a refatoração da arquitetura de componentes (com a Enzyme, qualquer mudança na arquitetura quebra parte dos testes).
+Permite a refatoração da arquitetura de componentes (com a Enzyme, qualquer mudança na arquitetura quebra parte dos testes)...
